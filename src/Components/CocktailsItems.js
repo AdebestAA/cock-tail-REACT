@@ -15,7 +15,7 @@ const CocktailsItems = () => {
 
         return (
     <div className='all-cocktails'>
-        <h1>Cocktails</h1>
+        <h1 className='cocktail-header-home'>Cocktails</h1>
 
 <article className='cocktails-box'>
     {cocktails.map((item,index)=>{

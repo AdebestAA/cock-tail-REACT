@@ -30,7 +30,7 @@ const InfoPage = () => {
     <main className='info-page'>
      <section className='first-container'>
 <Link to={'/'}>Back to home</Link>
-<h1>{strDrink}</h1>
+<h1 className='name-header'>{strDrink}</h1>
      </section>
      <section className='second-container'>
 <img src={strDrinkThumb} alt={strDrink} />
